@@ -16,6 +16,11 @@
 		F895A58A1700543800191A63 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F895A5891700543800191A63 /* Default.png */; };
 		F895A58C1700543800191A63 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F895A58B1700543800191A63 /* Default@2x.png */; };
 		F895A58E1700543800191A63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F895A58D1700543800191A63 /* Default-568h@2x.png */; };
+		F895A5951700548100191A63 /* CoreDataStart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F895A5941700548000191A63 /* CoreDataStart.storyboard */; };
+		F895A59817005A5100191A63 /* CoreDataStart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F895A59617005A5100191A63 /* CoreDataStart.xcdatamodeld */; };
+		F895A5A01700862C00191A63 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895A59F1700862C00191A63 /* CoreData.framework */; };
+		F895A5A31700889800191A63 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F895A5A21700889800191A63 /* TableViewController.m */; };
+		F895A5A917008F4500191A63 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F895A5A817008F4500191A63 /* CustomTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		F895A5891700543800191A63 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F895A58B1700543800191A63 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F895A58D1700543800191A63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F895A5941700548000191A63 /* CoreDataStart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CoreDataStart.storyboard; path = ../CoreDataStart.storyboard; sourceTree = "<group>"; };
+		F895A59717005A5100191A63 /* CoreDataStart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataStart.xcdatamodel; sourceTree = "<group>"; };
+		F895A59F1700862C00191A63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F895A5A11700889800191A63 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		F895A5A21700889800191A63 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		F895A5A717008F4500191A63 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableCell.h; path = ../CustomTableCell.h; sourceTree = "<group>"; };
+		F895A5A817008F4500191A63 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableCell.m; path = ../CustomTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F895A5A01700862C00191A63 /* CoreData.framework in Frameworks */,
 				F895A5781700543800191A63 /* UIKit.framework in Frameworks */,
 				F895A57A1700543800191A63 /* Foundation.framework in Frameworks */,
 				F895A57C1700543800191A63 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +81,7 @@
 		F895A5761700543800191A63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F895A59F1700862C00191A63 /* CoreData.framework */,
 				F895A5771700543800191A63 /* UIKit.framework */,
 				F895A5791700543800191A63 /* Foundation.framework */,
 				F895A57B1700543800191A63 /* CoreGraphics.framework */,
@@ -80,6 +94,12 @@
 			children = (
 				F895A5861700543800191A63 /* AppDelegate.h */,
 				F895A5871700543800191A63 /* AppDelegate.m */,
+				F895A5A11700889800191A63 /* TableViewController.h */,
+				F895A5A21700889800191A63 /* TableViewController.m */,
+				F895A5A717008F4500191A63 /* CustomTableCell.h */,
+				F895A5A817008F4500191A63 /* CustomTableCell.m */,
+				F895A5941700548000191A63 /* CoreDataStart.storyboard */,
+				F895A59617005A5100191A63 /* CoreDataStart.xcdatamodeld */,
 				F895A57E1700543800191A63 /* Supporting Files */,
 			);
 			path = CoreDataStrat;
@@ -154,6 +174,7 @@
 				F895A58A1700543800191A63 /* Default.png in Resources */,
 				F895A58C1700543800191A63 /* Default@2x.png in Resources */,
 				F895A58E1700543800191A63 /* Default-568h@2x.png in Resources */,
+				F895A5951700548100191A63 /* CoreDataStart.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +187,9 @@
 			files = (
 				F895A5841700543800191A63 /* main.m in Sources */,
 				F895A5881700543800191A63 /* AppDelegate.m in Sources */,
+				F895A59817005A5100191A63 /* CoreDataStart.xcdatamodeld in Sources */,
+				F895A5A31700889800191A63 /* TableViewController.m in Sources */,
+				F895A5A917008F4500191A63 /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +263,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataStrat/CoreDataStrat-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataStrat/CoreDataStrat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +275,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataStrat/CoreDataStrat-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataStrat/CoreDataStrat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +302,20 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F895A59617005A5100191A63 /* CoreDataStart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F895A59717005A5100191A63 /* CoreDataStart.xcdatamodel */,
+			);
+			currentVersion = F895A59717005A5100191A63 /* CoreDataStart.xcdatamodel */;
+			name = CoreDataStart.xcdatamodeld;
+			path = ../CoreDataStart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F895A56A1700543800191A63 /* Project object */;
 }
