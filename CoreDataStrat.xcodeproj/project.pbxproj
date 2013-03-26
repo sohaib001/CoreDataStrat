@@ -21,6 +21,7 @@
 		F895A5A01700862C00191A63 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F895A59F1700862C00191A63 /* CoreData.framework */; };
 		F895A5A31700889800191A63 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F895A5A21700889800191A63 /* TableViewController.m */; };
 		F895A5A917008F4500191A63 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F895A5A817008F4500191A63 /* CustomTableCell.m */; };
+		F8FEE7991701C2630023F14E /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FEE7981701C2630023F14E /* CustomTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		F895A5A21700889800191A63 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 		F895A5A717008F4500191A63 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableCell.h; path = ../CustomTableCell.h; sourceTree = "<group>"; };
 		F895A5A817008F4500191A63 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableCell.m; path = ../CustomTableCell.m; sourceTree = "<group>"; };
+		F8FEE7971701C2630023F14E /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarViewController.h; path = ../CustomTabBarViewController.h; sourceTree = "<group>"; };
+		F8FEE7981701C2630023F14E /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarViewController.m; path = ../CustomTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				F895A5871700543800191A63 /* AppDelegate.m */,
 				F895A5A11700889800191A63 /* TableViewController.h */,
 				F895A5A21700889800191A63 /* TableViewController.m */,
+				F8FEE7971701C2630023F14E /* CustomTabBarViewController.h */,
+				F8FEE7981701C2630023F14E /* CustomTabBarViewController.m */,
 				F895A5A717008F4500191A63 /* CustomTableCell.h */,
 				F895A5A817008F4500191A63 /* CustomTableCell.m */,
 				F895A5941700548000191A63 /* CoreDataStart.storyboard */,
@@ -190,6 +195,7 @@
 				F895A59817005A5100191A63 /* CoreDataStart.xcdatamodeld in Sources */,
 				F895A5A31700889800191A63 /* TableViewController.m in Sources */,
 				F895A5A917008F4500191A63 /* CustomTableCell.m in Sources */,
+				F8FEE7991701C2630023F14E /* CustomTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				F895A5931700543800191A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
